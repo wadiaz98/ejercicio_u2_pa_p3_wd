@@ -44,12 +44,12 @@ public class EjercicioU2PaP3WdApplication implements CommandLineRunner {
 
 		// PUNTO 1
 		Automovil automovil = new Automovil();
-		automovil.setPlaca("A1243");
+		automovil.setPlaca("ABC123");
 		automovil.setValorPorDia(new BigDecimal(70000));
 		this.automovilService.guardar(automovil);
 
 		Cliente cliente = new Cliente();
-		cliente.setCedula("172584516538");
+		cliente.setCedula("1725841538");
 		cliente.setNombre("Willan Diiaz");
 		this.clienteService.guardar(cliente);
 
